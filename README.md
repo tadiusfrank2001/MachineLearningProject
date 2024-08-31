@@ -22,13 +22,19 @@ The dataset consisted of over 1.6 million entries, which posed challenges in ter
 
 ## Technologies Used
 `Python`: Programming language used.
+
 `scikit-learn`: For implementing the Decision Tree and Logistic Regression models.
+
 `Pandas`: For data manipulation and analysis.
+
 `NumPy`: For numerical computations.
+
 `NLTK`: For natural language processing tasks.
 
 ## Project Structure
 `experiment.py`: Cleans and preprocesses the Twitter dataset, including removing stop words and extra punctuation.
+
 `classify.py`: Contains the Logistic Regression and Decision Tree classifiers used to train and evaluate the models.
+
 `data/`: Directory containing the Twitter tweet data, split into multiple 25MB files for easier management.
 
